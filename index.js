@@ -21,11 +21,12 @@ function logwhisper(string)
 function sayHiToGrandma(string)
 {
   uppercase = string.toUpperCase()
+  lowercase = string.toLowerCase()
   if(uppercase === string.toUpperCase())
   {
     return "YES INDEED!"
   }
-  else if(uppercase===string.toLowerCase())
+ if(uppercase===string.toLowerCase())
   {
     return "I can't hear you!" 
   }
